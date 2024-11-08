@@ -53,7 +53,7 @@ function App() {
         ></input>
         <button>Search</button>
       </form>
-      {isLoading && <p>Loading data…</p>}
+      {isLoading && <p>Loading data...</p>}
 
       {data && (
         <div className="weather-cards">
