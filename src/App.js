@@ -47,6 +47,7 @@ function App() {
         }}
       >
         <input
+          type="text"
           placeholder="Enter city name"
           onChange={(event) => setCity(event.target.value)}
         ></input>
